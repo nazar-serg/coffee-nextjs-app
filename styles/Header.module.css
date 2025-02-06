@@ -1,0 +1,6 @@
+.menu {
+   max-height: 100vh;
+}
+.noScroll  {
+    overflow: hidden;
+}

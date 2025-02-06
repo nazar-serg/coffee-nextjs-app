@@ -1,0 +1,6 @@
+.content {
+    margin-bottom: 40px;
+}
+.content p:not(:last-child) {
+    margin-bottom: 10px;
+}

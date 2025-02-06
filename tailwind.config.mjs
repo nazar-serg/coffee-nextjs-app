@@ -10,8 +10,24 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        secondary: "var(--secondery)",
+        "secondary-hover": "var(--secondary-hover)",
+        "light-brown": "var(--light-brown)",
+        yellow: "var(--yellow)",
+        "light-color": "var( --light-color)",
+      },
+    },
+
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: {
+        sm: '600px',
+        md: '750px',
+        lg: '1020px',
+        xl: '1280px',
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 };

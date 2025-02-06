@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+.image {
+    flex: 0 1 40%;
+    position: relative;
+    overflow: hidden;
+}
+.image img {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.content {
+    flex: 0 1 60%;
+}
