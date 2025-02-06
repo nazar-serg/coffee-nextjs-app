@@ -18,6 +18,10 @@
 .content {
     flex: 0 1 60%;
 }
+.content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
 .content p:not(:last-child) {
     margin-bottom: 10px;
 }
