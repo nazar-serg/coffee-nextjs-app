@@ -39,7 +39,7 @@ export default function Footer() {
     }, []);
 
     return (
-        <div className='bg-secondary py-8 mt-20'>
+        <div className='bg-secondary py-8 mt-10'>
         <div className='container mx-auto'>
             <ul className='flex gap-2 sm:gap-4 justify-center flex-wrap'>
                 {menuData.map((item) => (

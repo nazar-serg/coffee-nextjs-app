@@ -15,3 +15,15 @@
 .content {
     flex: 0 1 60%;
 }
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .wrapper:nth-of-type(1) {
+        margin-bottom: 60px;
+    }
+    .wrapper:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+}
